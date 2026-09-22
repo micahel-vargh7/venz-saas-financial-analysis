@@ -1,3 +1,3 @@
-# venz-saas-financial-analysis
+# Project Background
+VenZ is a B2B SaaS company founded in 2022, offering tiered subscription plans (Starter, Growth, Enterprise) to customers across North America, Europe, Latin America, and APAC. The company has experienced strong revenue growth since its founding, but recent financial reporting showed net margin growth decelerating relative to revenue growth. This raised concern among finance leadership heading into the next board meeting, prompting an investigation into where the deceleration is originating and what's driving it — whether specific regions, plan tiers, or cost categories are responsible.
 
-# Overall Findings
