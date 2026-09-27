@@ -85,6 +85,8 @@ Based on the insights and findings above, we would recommend the Finance and Mar
 - Unlike APAC, Starter plan did not have a category accelerating 2024-2025, but **Customer Support remained highest in expense 2025 (182%)**, meaning it’s the largest contributor to rising costs for Starter, but starter’s problem might not be one-item fixable but spread across nearly all categories. 
 
 # Assumptions and Caveats:
+- The Marketing expense category only exists as a single lump total in this dataset, with no breakdown by channel, campaign, or vendor. This limits the investigation to identifying Marketing as the driver of APAC's rising costs, without being able to pinpoint what specifically within Marketing is responsible.
+
 - Roughly 0.9% of transactions reference a customer_id not found in the customers table. These rows were kept since they still carry usable region and plan_tier data for most of the analysis, but they couldn't be joined to industry_vertical or signup cohort information.
 
 - A small number of rows (14 in plan_tier, 6 in region) remained blank even after recovering values from the customers table, since those customer_ids also didn't exist there. These were left as null.
@@ -92,5 +94,3 @@ Based on the insights and findings above, we would recommend the Finance and Mar
 - About 3% of category values and 1% of amount values were missing with no reliable way to recover or estimate them, so they were left as-is rather than guessed at.
 
 - Duplicate rows were only fully detectable after formatting was cleaned (trimming whitespace, standardizing casing), since inconsistent formatting was masking some duplicates that looked different but were actually the same record.
-
-- The Marketing expense category only exists as a single lump total in this dataset, with no breakdown by channel, campaign, or vendor. This limits the investigation to identifying Marketing as the driver of APAC's rising costs, without being able to pinpoint what specifically within Marketing is responsible.
