@@ -82,7 +82,7 @@ Based on the insights and findings above, we would recommend the Finance and Mar
 
 - Region APAC is dragging the overall company margin, APAC itself is decelerating in margin due to the rise of expense, and that is concentrated on Marketing. **Since the dataset only captures Marketing as a lump sum, a thorough breakdown of APAC's Marketing spend by channel/vendor is recommended to identify what's driving the increase before deciding whether to cut, reallocate, or justify the spend.**
 
-- Unlike APAC, Starter plan did not have a category accelerating 2024-2025, but **Customer Support remained highest in expense 2025 (182%)**, meaning it’s the largest contributor to rising costs for Starter, but starter’s problem might not be one-item fixable but spread across nearly all categories. 
+- Starter's rising costs aren't driven by one runaway category like APAC's Marketing — **nearly every expense category grew, with Customer Support the largest contributor (182% growth in 2025)**, the decline was spread across all regions, meaning its not a single item causing the problem, its spread across all segments. **Recommend a deeper investigation into what's driving Customer Support costs specifically, while noting that Starter's unprofitability may reflect a broader structural cost issue across the plan rather than a single fixable line item.**
 
 # Assumptions and Caveats:
 - The Marketing expense category only exists as a single lump total in this dataset, with no breakdown by channel, campaign, or vendor. This limits the investigation to identifying Marketing as the driver of APAC's rising costs, without being able to pinpoint what specifically within Marketing is responsible.
