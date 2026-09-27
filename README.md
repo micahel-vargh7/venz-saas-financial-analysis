@@ -85,7 +85,7 @@ Based on the insights and findings above, we would recommend the Finance and Mar
 - Starter's rising costs aren't driven by one runaway category like APAC's Marketing — **nearly every expense category grew, with Customer Support the largest contributor (182% growth in 2025)**, the decline was spread across all regions, meaning its not a single item causing the problem, its spread across all segments. **Recommend a deeper investigation into what's driving Customer Support costs specifically, while noting that Starter's unprofitability may reflect a broader structural cost issue across the plan rather than a single fixable line item.**
 
 # Assumptions and Caveats:
-- The Marketing expense category only exists as a single lump total in this dataset, with no breakdown by channel, campaign, or vendor. This limits the investigation to identifying Marketing as the driver of APAC's rising costs, without being able to pinpoint what specifically within Marketing is responsible.
+- The Marketing expense category only exists as a single lump total in this dataset, with no breakdown by channel, campaign, or vendor. This limits the investigation to identifying Marketing as the driver of APAC's rising costs, without being able to pinpoint what specifically within Marketing is responsible, same with Starter plan_tier, only limited us until Sales Commission couldn't go further linto what exacty inside Sales Commission that caused the problem.
 
 - Roughly 0.9% of transactions reference a customer_id not found in the customers table. These rows were kept since they still carry usable region and plan_tier data for most of the analysis, but they couldn't be joined to industry_vertical or signup cohort information.
 
